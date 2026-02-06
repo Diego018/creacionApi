@@ -12,6 +12,8 @@
 
 ### Y ademas de esto utilizo el JDK 25
 
+# Dependencias del proyecto
+
 ### - Spring Web -> Para poder trabajar con MVC
 ### - MySQL Driver -> Para usar el motor de la base de datos MySQL
 ### - Spring Data JPA -> Para usar mediante codigo java instrucciones SQL, usando jdbc.
