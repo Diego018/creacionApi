@@ -9,15 +9,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Estudiante {
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_estudiante")
-    private Long idEstudiante;
+    @Column(name = "id_student")
+    private Long id;
 
-    private String nombre;
-    private String carrera;
+    private String name;
+    private String career;
 
 
 
